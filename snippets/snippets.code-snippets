@@ -51,7 +51,7 @@
         "description": "failOnError attribute for a changeset. Should the migration fail if an error occurs while executing the changeSet?"
     },
     "IncludeAll Attr relativeToChangelogFile": {
-        "prefix": "runOnChange",
+        "prefix": "relativeToChangelogFile",
         "body": [
             "relativeToChangelogFile=\"${true}\""
         ],
@@ -474,7 +474,7 @@
     "IncludeAll": {
         "prefix": "includeAll",
         "body": [
-            "<includeAll path==\"${com/example/directory/directory.changelog.xml}\" relativeToChangelogFile==\"${true}\"/>"
+            "<includeAll path==\"${1:com/example/directory/directory.changelog.xml}\" relativeToChangelogFile==\"${true}\"/> <!--Don't change this line-->"
         ],
         "description": "The includeAll tag allows you to specify a directory that contains multiple changelog files. It is used within your master changelog file to call on the directory and include all .xml files as changelog files."
     },
