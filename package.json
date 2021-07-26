@@ -3,7 +3,12 @@
     "displayName": "liquibaseSnippets3ddx",
     "description": "Liquibase Snippets For 3ddx Company",
     "version": "1.0.0",
-    "publisher": "ahmed-hassan",
+    "publisher": "3D|Diagnostix",
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://swd.3ddx.com/CRM/databasesnippets.git"
+    },
     "engines": {
         "vscode": "^1.58.0"
     },
