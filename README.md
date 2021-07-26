@@ -10,4 +10,4 @@ Liquibase XML Snippets
 
 ## Changelog
 
-See changes in the [changelog](https://swd.3ddx.com/CRM/databasesnippets/-/tree/master/CHANGELOG.md)
+See changes in the [changelog](https://github.com/AhmedMohammed3/LQBSDatabaseSnippets/blob/master/CHANGELOG.md)
